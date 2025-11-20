@@ -1,0 +1,172 @@
+project_id = "lzitfcigdjbpymvebipp"
+
+[functions.update-shopify-credentials]
+verify_jwt = true
+
+[functions.register-shopify-webhooks]
+verify_jwt = true
+
+[functions.handle-shopify-order-update]
+verify_jwt = false
+
+[functions.handle-shopify-inventory-update]
+verify_jwt = false
+
+[functions.handle-shopify-product-update]
+verify_jwt = false
+
+[functions.create-shopify-order]
+verify_jwt = true
+
+[functions.sync-inventory-to-shopify]
+verify_jwt = true
+
+[functions.process-sync-queue]
+verify_jwt = false
+
+[functions.scheduled-sync-processor]
+verify_jwt = false
+
+[functions.reconcile-reserved-stock]
+verify_jwt = true
+
+[functions.create-supplier-account]
+verify_jwt = true
+
+[functions.send-user-credentials]
+verify_jwt = false
+
+[functions.send-po-notification]
+verify_jwt = true
+
+[functions.scheduled-smart-reorder]
+verify_jwt = false
+
+[functions.process-production-batch]
+verify_jwt = true
+
+[functions.generate-barcode-labels]
+verify_jwt = true
+
+[functions.send-whatsapp]
+verify_jwt = true
+
+[functions.courier-booking]
+verify_jwt = true
+
+[functions.courier-rates]
+verify_jwt = true
+
+[functions.courier-tracking]
+verify_jwt = true
+
+[functions.courier-cancellation]
+verify_jwt = true
+
+[functions.scheduled-courier-tracking]
+verify_jwt = false
+
+[functions.manage-user]
+verify_jwt = true
+
+[functions.manage-stock]
+verify_jwt = true
+
+[functions.stock-transfer-request]
+verify_jwt = true
+
+[functions.inventory-reports]
+verify_jwt = true
+
+[functions.low-stock-alerts]
+verify_jwt = true
+
+[functions.process-grn]
+verify_jwt = true
+
+[functions.process-order-fulfillment]
+verify_jwt = true
+
+[functions.process-return-restock]
+verify_jwt = true
+
+[functions.manage-purchase-order]
+verify_jwt = true
+
+[functions.shopify-webhook-orders]
+verify_jwt = false
+
+[functions.sync-shopify-products]
+verify_jwt = true
+
+[functions.update-shopify-order]
+verify_jwt = true
+
+[functions.sync-shopify-all]
+verify_jwt = true
+
+[functions.check-low-stock]
+verify_jwt = false
+
+[functions.process-stock-count]
+verify_jwt = true
+
+[functions.process-scan]
+verify_jwt = true
+
+[functions.process-pos-sale]
+verify_jwt = true
+
+[functions.open-pos-session]
+verify_jwt = true
+
+[functions.close-pos-session]
+verify_jwt = true
+
+[functions.manage-outlet-staff]
+verify_jwt = true
+
+[functions.update-user]
+verify_jwt = true
+
+[functions.send-order-confirmation]
+verify_jwt = true
+
+[functions.process-confirmation-response]
+verify_jwt = false
+
+[functions.retry-failed-confirmations]
+verify_jwt = false
+
+[functions.assess-order-fraud-risk]
+verify_jwt = true
+
+[functions.smart-reorder]
+verify_jwt = true
+
+[functions.reset-demo-user]
+verify_jwt = false
+
+[functions.sync-missing-orders]
+verify_jwt = true
+
+[functions.sync-shopify-customers]
+verify_jwt = true
+
+[functions.cancel-shopify-syncs]
+verify_jwt = true
+
+[functions.test-shopify-connection]
+verify_jwt = true
+
+[functions.generate-product-barcode]
+verify_jwt = true
+
+[functions.generate-courier-awbs]
+verify_jwt = true
+
+[functions.bulk-courier-booking]
+verify_jwt = true
+
+[functions.sync-missing-ecomnet-tags]
+verify_jwt = true
